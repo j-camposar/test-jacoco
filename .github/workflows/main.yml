@@ -90,4 +90,4 @@ jobs:
         -Dsonar.projectKey=j-camposar_test_jacoco \
         -Dsonar.organization=j-camposar \
         -Dsonar.host.url=https://sonarcloud.io \
-        -Dsonar.login=${SONAR_TOKEN}
+        -Dsonar.login=${{SONAR_TOKEN}}
